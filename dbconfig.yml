@@ -1,0 +1,17 @@
+development:
+  dialect: postgres
+  datasource: host=localhost port=5432 user=postgres password=190901 dbname=golang01 sslmode=disable
+  dir: migrations
+  table: migrations
+
+# production:
+#   dialect: postgres
+#   datasource: host=localhost port=5432 username=postgres password=190901 dbname=golang01 sslmode=disable
+#   dir: migrations
+#   table: migrations
+
+# staging:
+#   dialect: postgres
+#   datasource: host=localhost port=5432 username=postgres password=190901 dbname=golang01 sslmode=disable
+#   dir: migrations
+#   table: migrations
